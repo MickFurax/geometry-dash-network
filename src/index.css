@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* border: 0.1px solid lime; */
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
