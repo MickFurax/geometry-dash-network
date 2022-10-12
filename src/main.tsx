@@ -5,11 +5,7 @@ import "./index.css";
 import Navigation from "./navigation";
 
 const App = () => {
-  return (
-    <div>
-      <Navigation />
-    </div>
-  );
+  return <Navigation />;
 };
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(

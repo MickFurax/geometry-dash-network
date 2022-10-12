@@ -3,11 +3,9 @@ import Login from "../pages/Login";
 
 const Navigation = () => {
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Login />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Login />} />
+    </Routes>
   );
 };
 
