@@ -6,6 +6,10 @@
   /* border: 0.1px solid lime; */
 }
 
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 html,
 body,
 #root {

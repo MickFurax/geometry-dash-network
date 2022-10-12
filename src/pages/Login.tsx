@@ -4,15 +4,15 @@ import icon from "../assets/image/icon.svg";
 
 const Login = () => {
   return (
-    <div className="text-slate-600 md:bg-slate-100 md:px-32 px-16 pt-10 md:pt-0 min-h-full flex justify-center md:items-center">
-      <div className="grid md:grid-cols-2">
+    <div className="text-slate-600 lg:bg-slate-100 lg:px-32 px-12 md:pb-10 pt-10 md:pt-10 lg:pt-0 lg:pb-0 min-h-full flex justify-center lg:items-center">
+      <div className="grid lg:grid-cols-2">
         <img
           src={poster}
           alt="Background"
-          className="h-full hidden md:block object-cover"
+          className="h-full hidden lg:block rounded-l object-cover"
         />
-        <div className="bg-white md:px-10 lg:px-24 md:py-16 md:flex flex-col justify-center">
-          <div className="text-2xl font-medium mb-10 mt-6 flex flex-row items-center justify-between md:hidden">
+        <div className="bg-white md:px-10 lg:px-24 lg:py-16 rounded-r lg:flex flex-col justify-center">
+          <div className="text-2xl font-medium mb-10 mt-6 flex flex-row items-center justify-between lg:hidden">
             <img src={icon} alt="icon" className="h-16 w-16" />
             <div className="text-right">
               <span className="text-rose-500 ">Geometry Dash</span>
@@ -65,7 +65,7 @@ const Form = () => {
         </div>
       </form>
       <div className="mt-6 flex justify-center">
-        <button className="text-white font-medium bg-rose-500 px-16 p-3 rounded-full">
+        <button className="text-white font-medium bg-rose-500 hover:bg-rose-600 active:bg-rose-700 px-16 p-3 rounded-full">
           Login
         </button>
       </div>
